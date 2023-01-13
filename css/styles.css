@@ -1,1 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+    --main-bg-color: #FFFFFF;
+    --main-color: #212121;
+    --main-heading-color: #FFFFFF;
+    --webstudio-color:#2196F3;
+    --contact-info-header: #757575;
+    --heading-bg-color: #2F303A;
+    --section-titles-color: #212121;
+    --our-team-bg-color: #F5F4FA;
+    --description-color:#757575;
+    --footer-bg-color: #2F303A;
+    --contact-info-footer:rgba(255, 255, 255, 0.6);
+    --address-footer-color: #FFFFFF;
+    --button-bg-color:#F5F4FA; 
+    --active-and-hover-color: #2196F3;
+
+
+
+}
+
+body{
+    background-color: var(--main-bg-color);
+    font-family: 'Roboto',sans-serif;
+    color: var(--main-color);
+    font-size: 14px;
+}
+
+/* MARK - header styling */
+
+.webtudio-link{
+    color: var(--webstudio-color);
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.menu,
+.contact-info{
+    list-style-type: none;
+}
+.menu-item{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.menu-item:hover,
+.menu-item:active{
+    color: var(--active-and-hover-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact-detail{
+    text-decoration: none;
+    color: var(--contact-info-header);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact-detail:hover{
+    color: var(--active-and-hover-color);
+}
+
+/* MARK - main styling */
+
+
+
+
+
+
+/* MARK - footer styling */
+
+.address-footer{
+    list-style-type: none;
+}
+
+/* I will keep the color of the address and contact dark so far becasue the bg color that I have now and the text color are both white..*/
+.address{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    font-style: normal;
+}
+
+.contact-detail-footer{
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.contact-detail-footer:hover,
+.contact-detail-footer:active{
+    color: var(--active-and-hover-color);
+}
