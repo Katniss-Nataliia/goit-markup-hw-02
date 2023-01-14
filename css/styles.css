@@ -46,15 +46,16 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .menu-item:hover,
 .menu-item:active,
 .menu-item:focus{
     color: var(--active-and-hover-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+   
 }
 .contact-detail{
     text-decoration: none;
@@ -116,7 +117,8 @@ body{
 }
 
 .what-we-do-title,
-.our-team{
+.our-team,
+.portfolio-projects-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -192,7 +194,6 @@ body{
 
 .button-item{
     background-color: var(--button-bg-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
