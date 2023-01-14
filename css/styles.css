@@ -5,6 +5,7 @@
     --main-color: #212121;
     --main-heading-color: #FFFFFF;
     --webstudio-color:#2196F3;
+    --request-studio-color:#FFFFFF;
     --contact-info-header: #757575;
     --heading-bg-color: #2F303A;
     --section-titles-color: #212121;
@@ -15,8 +16,7 @@
     --address-footer-color: #FFFFFF;
     --button-bg-color:#F5F4FA; 
     --active-and-hover-color: #2196F3;
-
-
+    --white-text-color: #FFFFFF;
 
 }
 
@@ -66,39 +66,152 @@ body{
 }
 
 /* MARK - main styling */
+.title-div{
+    background-color: var(--heading-bg-color);
+}
+.effective-solution-title {
+    /* color: var(--main-heading-color) */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-heading-color);
+}
 
+.request-our-service-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--webstudio-color);
+    color: var(--request-studio-color);
+}
 
+.request-our-service-button:hover {
+    cursor: pointer;
+}
 
+.skills-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
+}
+
+.skills-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+.what-we-do-title,
+.our-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.what-we-do-images{
+    list-style-type: none;
+}
+
+.our-team-section{
+    background-color: var(--our-team-bg-color);
+}
+.our-team-list{
+    list-style-type: none;
+}
+
+.team-member-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.profession{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--description-color)
+}
 
 
 /* MARK - footer styling */
-
+.footer{
+    background-color: var(--footer-bg-color);
+}
 .address-footer{
     list-style-type: none;
 }
 
-/* I will keep the color of the address and contact dark so far becasue the bg color that I have now and the text color are both white..*/
 .address{
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-color);
+    color: var(--address-footer-color);
     font-style: normal;
 }
 
 .contact-detail-footer{
     text-decoration: none;
-    color: var(--main-color);
     font-weight: 500;
     font-style: normal;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--contact-info-footer);
 
 }
 .contact-detail-footer:hover,
 .contact-detail-footer:active{
     color: var(--active-and-hover-color);
+}
+
+
+/* MARK -> PORTFOLIO PAGE */
+
+
+.button-choices{
+    list-style-type: none;
+}
+
+.button-item{
+    background-color: var(--button-bg-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button-item:hover{
+    background-color: var(--active-and-hover-color);
+    color: var(--white-text-color);
+}
+.projects{
+    list-style-type: none;
+}
+
+.project-example{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
 }
