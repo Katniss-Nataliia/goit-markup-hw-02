@@ -52,10 +52,12 @@ ul{
     letter-spacing: 0.02em;
 }
 .menu-item:hover,
-.menu-item:active,
 .menu-item:focus{
     color: var(--active-and-hover-color);
    
+}
+.nav-link-current:active{
+    color: var(--active-and-hover-color);
 }
 
 .contact-detail{
